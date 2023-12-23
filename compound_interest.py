@@ -1,3 +1,8 @@
+#The Problem:
+#Take money borrowed, interest and duration as input. Then, compute the compound interest rate.
+
+
+
 def compound_interest(principles,rate,time):
  interest= principles*(1+(rate/100)*time)
  return interest
