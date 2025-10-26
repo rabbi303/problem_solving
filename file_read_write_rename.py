@@ -2,7 +2,7 @@
 
 import os
 
-folder = "/media/rabbi/83afe739-1cf3-417b-8249-ba6841296dca/rabbi/office/anpr/remove"
+folder = "/media/anpr/remove"
 
 for file in os.listdir(folder):
 	if file.endswith(".png"):
