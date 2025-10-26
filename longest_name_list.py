@@ -2,7 +2,7 @@
 #Find the longest name in the list
 
 
-names = ["Rahim", "rahman", "Chowdhuri"]
+names = ["Rahim", "rahman", "Chowdhuri", "Rima", "Bangladesh"]
 
 new_name = ""
 
