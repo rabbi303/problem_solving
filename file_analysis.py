@@ -1,3 +1,5 @@
+A .txt file will be given. You need to find out how many INFO, ERROR, WARNING there are in total.
+
 def file_analyze(file_path):
 
 #keep log count in Dictionary 
@@ -20,16 +22,18 @@ def file_analyze(file_path):
 			elif "WARNING" in line:
 				count["WARNING"] += 1
 
-	#print all the result
-	for key , value in count.items():
-		print(f"{key} : {value}")
+		#print all the result
+		for key , value in count.items():
+			print(f"{key} : {value}")
 			
-	'''#print only selected result
-				selected = "INFO"
-				if selected in count:
-					print(f'{selected} : {count[selected]}')
-				else:
-					print("Invalid selection")'''
+		'''		
+		#print only selected result
+		selected = "ERROR"
+		if selected in count:
+			print(f'{selected} : {count[selected]}')
+		else:
+			print("Invalid selection")
+		'''
 
 
 if __name__ == "__main__":
